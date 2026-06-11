@@ -138,7 +138,7 @@ def test_parse_args_defaults_enable_nine_tag_overlay(monkeypatch):
     assert args.auto_roll_ids == "none"
     assert args.min_tags_for_pose == 1
     assert args.draw_prism_wireframe is True
-    assert args.draw_model_tags is False
+    assert args.draw_model_tags is True
     assert args.draw_detected_corners is True
     assert args.draw_corner_index is True
     assert args.reject_outlier_tags is True

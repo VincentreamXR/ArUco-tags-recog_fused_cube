@@ -1581,7 +1581,7 @@ def parse_args():
     parser.add_argument("--cube-line-thickness", type=int, default=3, help="Projected cube wireframe line thickness.")
     parser.add_argument("--draw-prism-wireframe", action="store_true", default=True, help="Draw the upper/lower cube wireframes. Default: on.")
     parser.add_argument("--no-draw-prism-wireframe", dest="draw_prism_wireframe", action="store_false", help="Hide cube wireframes.")
-    parser.add_argument("--draw-model-tags", action="store_true", default=False, help="Project all configured rigid tag outlines. Default: off.")
+    parser.add_argument("--draw-model-tags", action="store_true", default=True, help="Project all configured rigid tag outlines. Default: on.")
     parser.add_argument("--no-draw-model-tags", dest="draw_model_tags", action="store_false", help="Hide projected rigid tag outlines.")
     parser.add_argument("--draw-detected-corners", action="store_true", default=True, help="Draw detected ArUco corner dots. Default: on.")
     parser.add_argument("--no-draw-detected-corners", dest="draw_detected_corners", action="store_false", help="Hide detected corner dots.")
