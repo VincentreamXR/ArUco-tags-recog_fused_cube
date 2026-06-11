@@ -1,0 +1,10 @@
+build/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.so
