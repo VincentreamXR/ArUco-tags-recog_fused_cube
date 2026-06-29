@@ -334,7 +334,7 @@ class PoseTracker:
         if isinstance(self.pose_filter, PoseEmaFilter):
             return self.pose_filter.update(rvec, tvec)
         r_filter, t_filter = self.pose_filter
-        cutoff_scale = 1.0 + (1.0 - confidence) * self.low_confidence_extra_smoothing
+        cutoff_scale = 1.0 / (1.0 + (1.0 - confidence) * self.low_confidence_extra_smoothing)
         filtered_rvec = r_filter.filter(rvec.reshape(-1), cutoff_scale=cutoff_scale).reshape(3, 1)
         filtered_tvec = t_filter.filter(tvec.reshape(-1), cutoff_scale=cutoff_scale).reshape(3, 1)
         return filtered_rvec, filtered_tvec
@@ -2101,6 +2101,8 @@ def draw_render_state(
             reflection_plane=reflection_plane,
         )
 
+    cube_size = get_cube_size(args)
+    vertical_gap = get_vertical_gap(args)
     frame_width = int(getattr(render_state, "frame_width", 0) or 0)
     frame_height = int(getattr(render_state, "frame_height", 0) or 0)
     resolution_text = "{}x{}".format(frame_width, frame_height) if frame_width > 0 and frame_height > 0 else "unknown"

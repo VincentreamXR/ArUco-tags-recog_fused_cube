@@ -1,0 +1,1450 @@
+Unity Editor version:    2022.3.62f3c1 (1623fc0bbb97)
+Branch:                  2022.3/china_unity/release
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #124~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 21:05:19 UTC 
+Kernel version:          6.8.0-124-generic
+Architecture:            x86_64
+Available memory:        15801 MB
+Using pre-set license
+Pro License: YES
+Desktop is 2560 x 1440 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/home/zsyy/MRbadminton_Aruco_ASCII
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+38131
+Successfully changed project path to: /home/zsyy/MRbadminton_Aruco_ASCII
+/home/zsyy/MRbadminton_Aruco_ASCII
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [132652363940800]  Target information:
+
+Player connection [132652363940800]  * "[IP] 10.40.92.168 [Port] 0 [Flags] 2 [Guid] 3179852398 [EditorId] 3179852398 [Version] 1048832 [Id] LinuxEditor(16,10.40.92.168) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [132652363940800]  * "[IP] 172.17.0.1 [Port] 0 [Flags] 2 [Guid] 3179852398 [EditorId] 3179852398 [Version] 1048832 [Id] LinuxEditor(16,10.40.92.168) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [132652363940800] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [132652363940800] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 4.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3c1 (1623fc0bbb97)
+[Subsystems] Discovering subsystems at path /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/zsyy/MRbadminton_Aruco_ASCII/Assets
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGI_video_sync GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_texture_from_pixmap GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context 
+Renderer: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 580.159.03
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_obje
+ct GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_b
+lend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -248555960
+Initialize mono
+Mono path[0] = '/home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/Managed'
+Mono path[1] = '/home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56006
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003401 seconds.
+- Loaded All Assemblies, in  0.190 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Failed to load: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/VisionOSPlayer/x64/UnityEditor.VisionOS.Native.so
+Native extension for VisionOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 78 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 471ms
+	BeginReloadAssembly (46ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (46ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (252ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (146ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.527 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Failed to load: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/VisionOSPlayer/x64/UnityEditor.VisionOS.Native.so
+Native extension for VisionOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.051 seconds
+Domain Reload Profiling: 1576ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1051ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (926ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (760ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8303 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 122 unused Assets / (1.6 MB). Loaded Objects now: 8751.
+Memory consumption went from 291.7 MB to 290.1 MB.
+Total: 5.880751 ms (FindLiveObjects: 0.521888 ms CreateObjectMapping: 0.191046 ms MarkObjects: 3.719881 ms  DeleteObjects: 1.446307 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: f3847dcb39c2a616e8d79845aaae36f1 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5576.339306 seconds.
+  path: Assets/Settings/Ultra_PipelineAsset.asset
+  artifactKey: Guid(e37b4ee5f7390c54a8f10e5c50850b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Ultra_PipelineAsset.asset using Guid(e37b4ee5f7390c54a8f10e5c50850b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c9febe146b13b088cdb132ea6bede031') in 0.207782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/BoundsControlExamples.unity
+  artifactKey: Guid(384e6c80fec551842a329aa6fdb67c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/BoundsControlExamples.unity using Guid(384e6c80fec551842a329aa6fdb67c00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cd49f27dbddb3a0f69eb8f3ae62d0d12') in 0.005559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Scenes/SlateDrawingExample.unity
+  artifactKey: Guid(8053107f934864d488f1cebf7b5caff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SlateDrawingExample.unity using Guid(8053107f934864d488f1cebf7b5caff3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cd3c0f25a1cc98671c5872fe31072033') in 0.001878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/NonCanvasUIBackplateExample.unity
+  artifactKey: Guid(7b91b43ca8b84c940a30d2cfccde4b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/NonCanvasUIBackplateExample.unity using Guid(7b91b43ca8b84c940a30d2cfccde4b75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bb83a309b31c14a03a27176d1ccc8752') in 0.004949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/PerfSceneManager.cs
+  artifactKey: Guid(f964d70e20cced24c879ce49e3da5ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PerfSceneManager.cs using Guid(f964d70e20cced24c879ce49e3da5ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0f4c28f66da4601a72bd8a4ca24af8fe') in 0.005820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Settings/Very Low_PipelineAsset.asset
+  artifactKey: Guid(4a5d0df23a345b74bb82409cdcbcce3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Settings/Very Low_PipelineAsset.asset using Guid(4a5d0df23a345b74bb82409cdcbcce3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4297f9aa6e85ebcb13b4a3d4e439405b') in 0.006857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/TapToPlaceExample.unity
+  artifactKey: Guid(21985977b81e22949be133537a0732d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/TapToPlaceExample.unity using Guid(21985977b81e22949be133537a0732d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5fed4ebba97ae0fcad949a5b0d16c153') in 0.002390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.044224 seconds.
+  path: Assets/Materials/TennisCourt/CourtLine.mat
+  artifactKey: Guid(70d8e277a4cb8694dbd1f0714c0d8804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/TennisCourt/CourtLine.mat using Guid(70d8e277a4cb8694dbd1f0714c0d8804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '54f0e24ee1aabd65b2c6f6f9e0fb1610') in 0.011154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/CanvasExample/HeroBackplate.mat
+  artifactKey: Guid(fa0f93ced8bed6b498845d2aa0b3d726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/CanvasExample/HeroBackplate.mat using Guid(fa0f93ced8bed6b498845d2aa0b3d726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c97e305fcbb55753cebafb7fa3bc01a4') in 0.058154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Experimental/VirtualizedScrollRectList.unity
+  artifactKey: Guid(037c8f21459dffd409cda32f75faa783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Experimental/VirtualizedScrollRectList.unity using Guid(037c8f21459dffd409cda32f75faa783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '32df963b86e7505663dd6cfe458c0c12') in 0.002021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(5b1c37d8e9a17de45972b238910c5b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(5b1c37d8e9a17de45972b238910c5b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '200e84060529c0acbc74eb5e2c1bd146') in 0.001864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/TennisCourt/UmpireDark.mat
+  artifactKey: Guid(ef69722df7ffa064795ff208f354a565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/TennisCourt/UmpireDark.mat using Guid(ef69722df7ffa064795ff208f354a565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9c3fc16a483a41bb8dc28c58c0d880ad') in 0.002154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/CanvasExample/HeroShadow.mat
+  artifactKey: Guid(4102f15ec1821ab4c8a6432f2941c590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/CanvasExample/HeroShadow.mat using Guid(4102f15ec1821ab4c8a6432f2941c590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3ee5040530427598508529b4c23325ea') in 0.003843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/BallVolley/MissSurface.cs
+  artifactKey: Guid(23ab7f6f78b3f4140896c71f1175fa7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/BallVolley/MissSurface.cs using Guid(23ab7f6f78b3f4140896c71f1175fa7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '967be9a671d12394a2493c56bc227968') in 0.002204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Plugins/Android/tracker-plugin-release.aar
+  artifactKey: Guid(9a4a8f2d0d2a4b2ea54f9b7d8f1c6a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Android/tracker-plugin-release.aar using Guid(9a4a8f2d0d2a4b2ea54f9b7d8f1c6a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4cf45557ea489fbd499540c804796b12') in 0.003564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/TennisCourt/RacketBlue.mat
+  artifactKey: Guid(95c037e12fcd8d64894bf29783244061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/TennisCourt/RacketBlue.mat using Guid(95c037e12fcd8d64894bf29783244061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '01f1cdaf786835d307bb99aa545ab051') in 0.005442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/TextPrefabExample/3DTextSelawikBold.prefab
+  artifactKey: Guid(f6038dfbe1e1bd14dac07b1405ccda54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/TextPrefabExample/3DTextSelawikBold.prefab using Guid(f6038dfbe1e1bd14dac07b1405ccda54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd4d2293d20f5a73509138e14bb223d23') in 0.082617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/CanvasExample/TopNavigationExample.prefab
+  artifactKey: Guid(beb27f14f40963b45a9fb5d2523f4711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/CanvasExample/TopNavigationExample.prefab using Guid(beb27f14f40963b45a9fb5d2523f4711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '981b69d87def6665306d6b671ed1ff34') in 0.069259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 643
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/EyeTrackingExamples/EyeTrackingCursor.prefab
+  artifactKey: Guid(c9d9edba85c2c504c962d7cd830d9e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/EyeTrackingExamples/EyeTrackingCursor.prefab using Guid(c9d9edba85c2c504c962d7cd830d9e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+UpdateMenuTitleForLanguage: 10
+ -> (artifact id: 'c5f2dbf21c989593e89596ad6e8eac0a') in 0.093571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/EyeTracking/EyeTrackingTargetPositioningExample.unity
+  artifactKey: Guid(cea45ccd3c7d723488a2135739e001b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/EyeTracking/EyeTrackingTargetPositioningExample.unity using Guid(cea45ccd3c7d723488a2135739e001b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'df4b5ee71cc1f319c68a57305531c0a7') in 0.002282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/SampleSceneHelper/Placard.prefab
+  artifactKey: Guid(53b4fadc7abe80d4f9549b89f80300d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/SampleSceneHelper/Placard.prefab using Guid(53b4fadc7abe80d4f9549b89f80300d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '657262129a179fa681dd1af139a0365b') in 0.025066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/EyeTracking/EyeTrackingExampleNavigationExample.unity
+  artifactKey: Guid(88bf1ad621921504d9026542db6bfa45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/EyeTracking/EyeTrackingExampleNavigationExample.unity using Guid(88bf1ad621921504d9026542db6bfa45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '411875362cd51decedf04ddc2cb77a6f') in 0.001972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/VolleyScene/LauncherIndicatorMint.mat
+  artifactKey: Guid(165f47f705253aa43a8daaff1f85a8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/VolleyScene/LauncherIndicatorMint.mat using Guid(165f47f705253aa43a8daaff1f85a8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9228c51ae6c9123e64267902fb0d42a2') in 0.002303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/BallVolley/BallServeLauncher.cs
+  artifactKey: Guid(4a850f6c4adf9884184c01b2836c761c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/BallVolley/BallServeLauncher.cs using Guid(4a850f6c4adf9884184c01b2836c761c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e335fa16442d41e98d68638a9c2d44cf') in 0.002247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Plugins/Android/CMAndroidSDK_4_V4.0_202509121555.aar
+  artifactKey: Guid(30793ee2439a1d54f904277a341f7e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Plugins/Android/CMAndroidSDK_4_V4.0_202509121555.aar using Guid(30793ee2439a1d54f904277a341f7e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7377b302fa6a2d943a195348d5f10c48') in 0.002434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033602 seconds.
+  path: Assets/Scripts/BallVolley/VolleyGameManager.cs
+  artifactKey: Guid(6750bb394da85c54eb8d05f5ac2cef20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/BallVolley/VolleyGameManager.cs using Guid(6750bb394da85c54eb8d05f5ac2cef20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '63741c043651cc4a649ff2d9703116a0') in 0.002677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e98fbe9901f634c4ea893086217c44fb') in 0.007849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/EyeTracking/ScrollPanZoom/OnLookAtRotateByEyeGaze.cs
+  artifactKey: Guid(681d7a128f407044192776577bba0098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EyeTracking/ScrollPanZoom/OnLookAtRotateByEyeGaze.cs using Guid(681d7a128f407044192776577bba0098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ba2328032c95866a5a7ae08d199efa62') in 0.002641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/EyeTracking/TargetPositioning/ObjectGoalZone.cs
+  artifactKey: Guid(e4a9843675107d046af03666fac596ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EyeTracking/TargetPositioning/ObjectGoalZone.cs using Guid(e4a9843675107d046af03666fac596ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '44a3a12cff281f03c772d1fa6f4ef627') in 0.001965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefabs/EyeTrackingExamples/Visualizer/GazeVisualizerControls.prefab
+  artifactKey: Guid(0745c2d3ca133584e996e8cd69f6d0aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/EyeTrackingExamples/Visualizer/GazeVisualizerControls.prefab using Guid(0745c2d3ca133584e996e8cd69f6d0aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '307ab130f3c32f8a129ed98b0ee2fe67') in 0.050987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 468
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/EyeTrackingExamples/Visualizer/RecordingSample.prefab
+  artifactKey: Guid(64e53d8562025f543b10498ba7cdaa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/EyeTrackingExamples/Visualizer/RecordingSample.prefab using Guid(64e53d8562025f543b10498ba7cdaa3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ee10f8487e3849443bfaba3ad8a00938') in 0.019513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a86e76d0e24aa67b3424bc5159a54ce2') in 0.010806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1bb6e54aa8180eaa196f9caa311cc251') in 0.005090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scripts/EyeTracking/ScrollPanZoom/PanZoomBase.cs
+  artifactKey: Guid(4deb92795a0ea814cab7b0d9137a3f65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EyeTracking/ScrollPanZoom/PanZoomBase.cs using Guid(4deb92795a0ea814cab7b0d9137a3f65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a3d0049bfd2f1cf7bdf98bedba1e5a51') in 0.006952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b3727115296d8f4a1567c7231d6e6c29') in 0.016644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/EyeTracking/Visualizer/DrawOnTexture.cs
+  artifactKey: Guid(e42eb3d7b30cbe8488b64d06f229b61e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EyeTracking/Visualizer/DrawOnTexture.cs using Guid(e42eb3d7b30cbe8488b64d06f229b61e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '649313278cbb3cf840518718c156778d') in 0.002807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/XR/Temp/XRSimulationPreferences.asset
+  artifactKey: Guid(a1a67ac5065956847b2d6dc2eed0ba1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Temp/XRSimulationPreferences.asset using Guid(a1a67ac5065956847b2d6dc2eed0ba1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '20f9d19a32ff12f2db417b3f64b8c86b') in 0.010739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/EyeTrackingExamples/NavigationExample/PanAndZoomExample.prefab
+  artifactKey: Guid(d341ff791a3249540a0c38121c47a9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/EyeTrackingExamples/NavigationExample/PanAndZoomExample.prefab using Guid(d341ff791a3249540a0c38121c47a9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ff6dcb1488e6894d797e41993f03f2e3') in 0.012971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/EyeTracking/EyeTrackingUtilities.cs
+  artifactKey: Guid(2866b773550031047a508971f216aa9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EyeTracking/EyeTrackingUtilities.cs using Guid(2866b773550031047a508971f216aa9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6d0f11717b3abaa5fc8cb1fd912cd056') in 0.002223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f3afd34f2ac866b0e8c4cd1880b15187') in 0.001663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/EyeTracking/FollowEyeGaze.cs
+  artifactKey: Guid(f794cd1785a414045977779c0ff5bd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EyeTracking/FollowEyeGaze.cs using Guid(f794cd1785a414045977779c0ff5bd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5fe594401a2a6b27f68c241beee26655') in 0.002319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '678cd91472947ef97ff8d9c097549211') in 0.002565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '18ea3954bcc20d2c3c761f248d87de07') in 0.002546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scripts/EyeTracking/ScrollPanZoom/PanZoomBaseRectTransform.cs
+  artifactKey: Guid(c7151e94b1de5f84eb723f222d18aa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EyeTracking/ScrollPanZoom/PanZoomBaseRectTransform.cs using Guid(c7151e94b1de5f84eb723f222d18aa4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2f2fd006f66d7f67a4f342205cfd5ba3') in 0.002640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.235098 seconds.
+  path: Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset
+  artifactKey: Guid(1dd625cf443223d40b6b0c26fbc6c7d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset using Guid(1dd625cf443223d40b6b0c26fbc6c7d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5f07470743cfb52b8c042a1f593f37a6') in 0.007041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Prefabs/PencilPointer.prefab
+  artifactKey: Guid(e39fae62ae95c457d8ac80ef6b82371b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Prefabs/PencilPointer.prefab using Guid(e39fae62ae95c457d8ac80ef6b82371b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'afa8b9825bbbc8a590b7c3ceb293d2da') in 0.018929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/Prefabs/Interactions/Hand Controller Right.prefab
+  artifactKey: Guid(7dfa7382c5bbc413aaccd524808311a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/Prefabs/Interactions/Hand Controller Right.prefab using Guid(7dfa7382c5bbc413aaccd524808311a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '441cc372b2b3f590fe570c443b8db4e1') in 0.030610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Audios/Start_drawing.wav
+  artifactKey: Guid(5a63e19398dd5483b8a6d7f6bb08793c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Audios/Start_drawing.wav using Guid(5a63e19398dd5483b8a6d7f6bb08793c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7e12bf03e5c997b9f20a801e7e66dba8') in 0.027205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Materials/Particles_Stars.mat
+  artifactKey: Guid(3b4d88bb01de3a149bc4e9c26c432811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Materials/Particles_Stars.mat using Guid(3b4d88bb01de3a149bc4e9c26c432811) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4b69120588a4b259b9d630cb17b9ff51') in 0.004102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Scripts/Pen.cs
+  artifactKey: Guid(8ed0eb82dee9e4de18b3e52296f125cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Scripts/Pen.cs using Guid(8ed0eb82dee9e4de18b3e52296f125cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f7ba9eabcb8e2da8a99138aa079fa62f') in 0.002544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Textures/fx_pencil.png
+  artifactKey: Guid(83b3683880fd3354fa94d1181f7564a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Textures/fx_pencil.png using Guid(83b3683880fd3354fa94d1181f7564a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3b25e69c52c4f29c350c014dc6b7f547') in 0.031720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/QCHT.Interactions.Samples.Core.asmdef
+  artifactKey: Guid(0100c19fe61c1494ea0f8b2aad56b646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/QCHT.Interactions.Samples.Core.asmdef using Guid(0100c19fe61c1494ea0f8b2aad56b646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7cdc1eb65920af9b4f180d142b8f65b3') in 0.002280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/UI-Menu.prefab
+  artifactKey: Guid(d4fe393ddf00c2649b6adf4ce670c7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/UI-Menu.prefab using Guid(d4fe393ddf00c2649b6adf4ce670c7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a2bfbde3d88f9b87724dfa3c2e729f3b') in 0.012099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 187
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/UI-Menu_Button_Slider.prefab
+  artifactKey: Guid(40a0ce66a5d3f4581a4975a78fc25194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/UI-Menu_Button_Slider.prefab using Guid(40a0ce66a5d3f4581a4975a78fc25194) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4d74719fad2c7b739c8a7c08eb820452') in 0.022153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/Prefabs/QCHT Rig Setup (XR Origin).prefab
+  artifactKey: Guid(61a7fcf8b799c4d57a935704e2b40c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/Prefabs/QCHT Rig Setup (XR Origin).prefab using Guid(61a7fcf8b799c4d57a935704e2b40c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '94ad86576c970b244d95328eaec27864') in 0.026568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 475
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Scripts/BrushDescriptor.cs
+  artifactKey: Guid(c5dfd98732d3d4de5b2f1a548800560f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Scripts/BrushDescriptor.cs using Guid(c5dfd98732d3d4de5b2f1a548800560f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6799087e37dbf03ebdf50184d8265cb6') in 0.002825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Prefabs/DrawingManager.prefab
+  artifactKey: Guid(9acb1ed26662f4039b2e6aa448f4c4aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Prefabs/DrawingManager.prefab using Guid(9acb1ed26662f4039b2e6aa448f4c4aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '95d517183e01399e653d648883da5e53') in 0.008197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/Scripts/XRRayInteractorManager.cs
+  artifactKey: Guid(11794890264294212a481bf48d5b5ee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/Scripts/XRRayInteractorManager.cs using Guid(11794890264294212a481bf48d5b5ee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fcb443643b8dcb1f401036594c95a940') in 0.002358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Scripts/CubeManipulation.cs
+  artifactKey: Guid(795d8e0afa042c8448766e84659d08e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Scripts/CubeManipulation.cs using Guid(795d8e0afa042c8448766e84659d08e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '059d377e944de7bcecbdf035c6d00b28') in 0.002285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Prefabs/CurvedLine.prefab
+  artifactKey: Guid(cdbf90ce7a2ba4d428ee2aa2880a7e6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Prefabs/CurvedLine.prefab using Guid(cdbf90ce7a2ba4d428ee2aa2880a7e6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3145c3a13038a33e61298576aeb24ee0') in 0.007065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/Quit_Button_Slider.prefab
+  artifactKey: Guid(503efae785d7042c8a6b6bc1dbc12c2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/Quit_Button_Slider.prefab using Guid(503efae785d7042c8a6b6bc1dbc12c2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3e7a7c3952e81144028dd1e87c45b6dd') in 0.014997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/ButtonXRUIInteractable.prefab
+  artifactKey: Guid(614e1c991a8444770a3ac713846da68b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/ButtonXRUIInteractable.prefab using Guid(614e1c991a8444770a3ac713846da68b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8c8a287c28d71e6245c27e85ac2f4f05') in 0.014441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Textures/sparkleflare3.png
+  artifactKey: Guid(02f2eafa76e0a634db875c2e20d199f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Drawing/Textures/sparkleflare3.png using Guid(02f2eafa76e0a634db875c2e20d199f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1445bd7f7e6e1f6e70b9ff270e28bc0b') in 0.005491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/LIghting Settings.lighting
+  artifactKey: Guid(8de5ad68cc2e4421e964498ecb91aabd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/LIghting Settings.lighting using Guid(8de5ad68cc2e4421e964498ecb91aabd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '48d9f7f25b3ed48ccb566039bde72236') in 0.009036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/InputActions/Default QCHT Input Actions.inputactions
+  artifactKey: Guid(5c79e70dd0ed74bc59b489ccfc5fbfe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/Core Assets/InputActions/Default QCHT Input Actions.inputactions using Guid(5c79e70dd0ed74bc59b489ccfc5fbfe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bc90bd6b20b83abd735bec1c9123061c') in 0.098749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.034491 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/UI-Menu_spaces_custom_Template.prefab
+  artifactKey: Guid(4ced45aeb21d84c578af9ebc01f0b1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Prefabs/UI-Menu_spaces_custom_Template.prefab using Guid(4ced45aeb21d84c578af9ebc01f0b1d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '36b9d580fe00601fa048896d4b258191') in 0.013381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Prefabs/Canvas_ballon_label.prefab
+  artifactKey: Guid(76521fdbd4e53ab45bb42e7ddd2ecde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Prefabs/Canvas_ballon_label.prefab using Guid(76521fdbd4e53ab45bb42e7ddd2ecde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '403392d1908b561230903a46afd874b1') in 0.011640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Font/QualcommNext-Regular.otf
+  artifactKey: Guid(f7d59fc35e69b3448ada4ee72d16fd2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Font/QualcommNext-Regular.otf using Guid(f7d59fc35e69b3448ada4ee72d16fd2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7eaeea4641dd4549e0f437f3e0dd8992') in 0.007230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Textures/Box_Template_Blue_Hover.png
+  artifactKey: Guid(3df740eaf2dfb8e439612217a14fca20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Textures/Box_Template_Blue_Hover.png using Guid(3df740eaf2dfb8e439612217a14fca20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '04fa5da5fda52d0f35204e4c6714e95b') in 0.005717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/QR Code Tracking/QR Code Tracking Sample.unity
+  artifactKey: Guid(c4df41c43ad0e854b9a08655e3103600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/QR Code Tracking/QR Code Tracking Sample.unity using Guid(c4df41c43ad0e854b9a08655e3103600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4af6e7e4a9e40731a65ebf0f45bfb8bf') in 0.002127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Scripts/XRCameraPoseFollower.cs
+  artifactKey: Guid(9b5feae0d424a5d4e8987260c01d9ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Scripts/XRCameraPoseFollower.cs using Guid(9b5feae0d424a5d4e8987260c01d9ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fe873647576e5fd0b696639c1098bdec') in 0.002012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Textures/UI_bg_text_balloon.png
+  artifactKey: Guid(cce0375f15d378e4097bbf2c49b1d25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Textures/UI_bg_text_balloon.png using Guid(cce0375f15d378e4097bbf2c49b1d25c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ccefad24fab277b2924c84a3136573b8') in 0.014772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Materials/HostController.mat
+  artifactKey: Guid(861c06b7e96082340919552a0e52becc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Materials/HostController.mat using Guid(861c06b7e96082340919552a0e52becc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '78f25011b5c9936312b7953296a09147') in 0.003989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Images/anchors_icons.png
+  artifactKey: Guid(210e4dcec310c704fa1566f1a7cdec33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Images/anchors_icons.png using Guid(210e4dcec310c704fa1566f1a7cdec33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '07172d1d0edc98daaf6809afb8190323') in 0.014083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scripts/LongPressButton.cs
+  artifactKey: Guid(96cff9e44b53b4ed6b943ac694918257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scripts/LongPressButton.cs using Guid(96cff9e44b53b4ed6b943ac694918257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a4a3a39c606c620f9ecc6d4f63c4c1b4') in 0.002913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/Spaces XR Simulator.prefab
+  artifactKey: Guid(7a28101b61c2f3e498922267db40ba23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/Spaces XR Simulator.prefab using Guid(7a28101b61c2f3e498922267db40ba23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e2e90e0e1d71172786928c2db7b0fe06') in 0.003321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scripts/SampleSceneManager.cs
+  artifactKey: Guid(816959845cd1476c8d045d0e6469ec87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scripts/SampleSceneManager.cs using Guid(816959845cd1476c8d045d0e6469ec87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a55d9ad7357c50e7905cefd3fd87a759') in 0.002201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Textures/XRController.png
+  artifactKey: Guid(71b55b5393f7d0842a25e9c739364424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Textures/XRController.png using Guid(71b55b5393f7d0842a25e9c739364424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e382150df7ca0e79b9f166c52b9ad2ef') in 0.005259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Scripts/CanvasControllerCompanion.cs
+  artifactKey: Guid(b463b260c5bbb4a46aaef7883f8711bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Scripts/CanvasControllerCompanion.cs using Guid(b463b260c5bbb4a46aaef7883f8711bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f8494bd5a030222b86133fd0f6dd2259') in 0.002384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Plane Detection Sample.unity
+  artifactKey: Guid(46111d8efce134ef38f645e0c00e1362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Plane Detection Sample.unity using Guid(46111d8efce134ef38f645e0c00e1362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c997f3058cb4226be2fafb17e243649d') in 0.002077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Prefabs/UI/Exit Panel Overlay.prefab
+  artifactKey: Guid(be8dadc666de1f744bbc79beeffa459e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Prefabs/UI/Exit Panel Overlay.prefab using Guid(be8dadc666de1f744bbc79beeffa459e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0a1a47bc70104487aa949d7b04a456a2') in 0.005032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Scripts/CanvasControllerButtonMenu.cs
+  artifactKey: Guid(1ad9216544e888a4381f47bfd613e703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Scripts/CanvasControllerButtonMenu.cs using Guid(1ad9216544e888a4381f47bfd613e703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '48346b2555835c4ea1aaf03d5c6ee78a') in 0.002390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Scripts/CubeLabel.cs
+  artifactKey: Guid(f09904a932014ce7b1a5e620be49b555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Scripts/CubeLabel.cs using Guid(f09904a932014ce7b1a5e620be49b555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6c50f6c76727ed1402866e2011d9e69b') in 0.002283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Models/HostController.FBX
+  artifactKey: Guid(5ec1894f3e228594e83bd5f4141bea74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Models/HostController.FBX using Guid(5ec1894f3e228594e83bd5f4141bea74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9e5e36eeeeb61a7405456c435bad4dae') in 0.049941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scenes/QCHT Sample - Menu.unity
+  artifactKey: Guid(ec840dab4ead24fa2806309013907795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scenes/QCHT Sample - Menu.unity using Guid(ec840dab4ead24fa2806309013907795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f02552b4bdb2ad203773261ba80f9061') in 0.002681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scripts/HandTrackingSceneManagement.cs
+  artifactKey: Guid(aed334b1d7dd41099e1a2f726c8ef94b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Menu/Scripts/HandTrackingSceneManagement.cs using Guid(aed334b1d7dd41099e1a2f726c8ef94b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0d64ff97131942ccc63fc58a989c53c1') in 0.003127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.215559 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Poke/XRKeyboard/Scripts/KeyStringButton.cs
+  artifactKey: Guid(46d0e2434eb3c4e70bf70955c3af7e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Poke/XRKeyboard/Scripts/KeyStringButton.cs using Guid(46d0e2434eb3c4e70bf70955c3af7e42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fe578ed2e0bddd4658a3ceacf1b0ebb8') in 0.003080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Settings/HandPoses/HandPosePinchCubePoseLeft.asset
+  artifactKey: Guid(345f359db00cd4ecd848a4e35771a22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Settings/HandPoses/HandPosePinchCubePoseLeft.asset using Guid(345f359db00cd4ecd848a4e35771a22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'eec530aaa68417da433d93d0a22609ba') in 0.009461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Scripts/PlaneDetectionSampleController.cs
+  artifactKey: Guid(5173b7383e34f7b4a8f189f579473208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Scripts/PlaneDetectionSampleController.cs using Guid(5173b7383e34f7b4a8f189f579473208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6f108e7540616ad9d95bf807c80d6cc0') in 0.002436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Materials/Gizmo Yellow Primary.mat
+  artifactKey: Guid(d12fcb2af90a54643823ea855a9da686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Materials/Gizmo Yellow Primary.mat using Guid(d12fcb2af90a54643823ea855a9da686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '86192bc18321fccb8e6c4d703e349927') in 0.002490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Prefabs/Default AR Plane.prefab
+  artifactKey: Guid(002aac1fe3e3f4a8eb44b15fc16a4058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Prefabs/Default AR Plane.prefab using Guid(002aac1fe3e3f4a8eb44b15fc16a4058) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5babd1300e33c3a6f39f978dd0215e63') in 0.010145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Main Menu/Scripts/ComponentVersionDisplay.cs
+  artifactKey: Guid(502b176eabe69f74ea6d0236df0b9500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Main Menu/Scripts/ComponentVersionDisplay.cs using Guid(502b176eabe69f74ea6d0236df0b9500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3ec00a9ffbe9c46aaaf07798ac9a1f42') in 0.001875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/Interaction/HostController.prefab
+  artifactKey: Guid(623958d57d200f34c9197fba8db6cceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/Interaction/HostController.prefab using Guid(623958d57d200f34c9197fba8db6cceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0d97542bb1c5949756ca504d1570780d') in 0.006495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Materials/Transparent Plane.mat
+  artifactKey: Guid(3c2dcc08c8cb14aeab73dce018889e18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Materials/Transparent Plane.mat using Guid(3c2dcc08c8cb14aeab73dce018889e18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dc50347fe51de62bea7b96a750a46a65') in 0.009738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/UI/Extended Content Custom Variant.prefab
+  artifactKey: Guid(640a818e1d3feab43adfa6fe63d1629d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/UI/Extended Content Custom Variant.prefab using Guid(640a818e1d3feab43adfa6fe63d1629d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '630cdec7da44c71ad8fd8ced75f256ff') in 0.012672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 250
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Scripts/AnchorSampleController.cs
+  artifactKey: Guid(6a542b196ced86543afa259e9952b687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Scripts/AnchorSampleController.cs using Guid(6a542b196ced86543afa259e9952b687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '86fcd7584998c497473e761966596375') in 0.002229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Poke/XRKeyboard/Textures/UI_BG_Key_Selected.png
+  artifactKey: Guid(c092837523c7e02498f84b7a36e9dfa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Poke/XRKeyboard/Textures/UI_BG_Key_Selected.png using Guid(c092837523c7e02498f84b7a36e9dfa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b3c802b7e1b0610f6844c2e21ea777fa') in 0.006069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/QR Code Tracking/Prefabs/QR Code Tracked Object.prefab
+  artifactKey: Guid(bf2c0faecd299694c844e071d1694f1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/QR Code Tracking/Prefabs/QR Code Tracked Object.prefab using Guid(bf2c0faecd299694c844e071d1694f1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ffbce27fb42122ab9f1cc54e4550343c') in 0.004645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/UI/Toggle Checkbox.prefab
+  artifactKey: Guid(a281a5beda9e9a045916631720263c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/UI/Toggle Checkbox.prefab using Guid(a281a5beda9e9a045916631720263c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4dc5e666657ad9221a41c99c9e68e608') in 0.024934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/Interaction/Device Pointer.prefab
+  artifactKey: Guid(d12d7bea06e6e415a86b1e182bbec4fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Prefabs/Interaction/Device Pointer.prefab using Guid(d12d7bea06e6e415a86b1e182bbec4fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b3b19d11133f69fed8727c7a6545bc8f') in 0.076413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Settings/HandPoses/HandPosePinchCubePoseRight.asset
+  artifactKey: Guid(a5cfb156d0b2074469b3df0ef501c458) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/QCHT Unity Interactions/4.1.12/QCHT Samples/Proximal/Settings/HandPoses/HandPosePinchCubePoseRight.asset using Guid(a5cfb156d0b2074469b3df0ef501c458) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3e6590d40e4f257e472d4727be592e9a') in 0.006450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Materials/Gizmo Transparent Secondary.mat
+  artifactKey: Guid(982c6da4bb98a44338c4a329d6921134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Materials/Gizmo Transparent Secondary.mat using Guid(982c6da4bb98a44338c4a329d6921134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '99971e9228d3975e717147e06b24ba9c') in 0.004367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Materials/Gizmo Cyan Secondary.mat
+  artifactKey: Guid(1090cb9f839944cd392c8d8cdce4ef69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Anchor Sample/Materials/Gizmo Cyan Secondary.mat using Guid(1090cb9f839944cd392c8d8cdce4ef69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '31f8777ff59344d7250daa46428f9097') in 0.007272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.209793 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Interaction/EditorCameraController.cs
+  artifactKey: Guid(b3b7fcf7b5fcd49b088a4f178be16881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Interaction/EditorCameraController.cs using Guid(b3b7fcf7b5fcd49b088a4f178be16881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e772ce61a79736e0f7620becdbe0d22e') in 0.003037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Textures/drawable-night-hdpi/frame.png
+  artifactKey: Guid(4940333eed035904fb81f6d8fa791bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Textures/drawable-night-hdpi/frame.png using Guid(4940333eed035904fb81f6d8fa791bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3b52954bdd20997f9c5a3c11ef528cc8') in 0.005834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/UI/FloatingPanelController.cs
+  artifactKey: Guid(420032a40eb474a6783db258e1669f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/UI/FloatingPanelController.cs using Guid(420032a40eb474a6783db258e1669f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ad4684c3c1858a79fcf8212e80f72989') in 0.002193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Textures/drawable-night-hdpi/trackpad_dot_tile.png
+  artifactKey: Guid(1159398ab26bb0245b2765328909225b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Textures/drawable-night-hdpi/trackpad_dot_tile.png using Guid(1159398ab26bb0245b2765328909225b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b83908df7b3accd890c3bde74bf71537') in 0.005890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Textures/drawable-night-hdpi/trackpad.9.png
+  artifactKey: Guid(0205719e93677f14ea7e6388d0e5c674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Fusion Samples/Controller/Textures/drawable-night-hdpi/trackpad.9.png using Guid(0205719e93677f14ea7e6388d0e5c674) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '48fbd73acf14472171129f7aa383a14c') in 0.006082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Prefabs/UI/UI Menu Spaces Plane Detection.prefab
+  artifactKey: Guid(f08011385052449419b706fbc50b1781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Scenes/Plane Detection Sample/Prefabs/UI/UI Menu Spaces Plane Detection.prefab using Guid(f08011385052449419b706fbc50b1781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f4b58a1b9fd95c9d04bb83375c530099') in 0.008380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 231
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Interaction/XRControllerInputAnimation.cs
+  artifactKey: Guid(4df1c00b396ab584798a1585710754f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Interaction/XRControllerInputAnimation.cs using Guid(4df1c00b396ab584798a1585710754f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6b8a0e9ab29029a705fa365819497bea') in 0.005450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Interaction/InteractionManager.cs
+  artifactKey: Guid(d672a8272d8043d419d97fbe396ae397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Interaction/InteractionManager.cs using Guid(d672a8272d8043d419d97fbe396ae397) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3d97d7c34b182f51c1ff076626afc978') in 0.001916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Samples/HandTrackingSampleChecker.cs
+  artifactKey: Guid(faeeba7fe66847189faef8558d81b054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/Samples/HandTrackingSampleChecker.cs using Guid(faeeba7fe66847189faef8558d81b054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '949652dbfe600d06ad9956752689b822') in 0.007110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/UI/PinIconSwitcher.cs
+  artifactKey: Guid(23fdfcc550a4ce14abedc863efa972af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Snapdragon Spaces/1.0.1/Core Samples/Shared Assets/Scripts/UI/PinIconSwitcher.cs using Guid(23fdfcc550a4ce14abedc863efa972af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6cfff2b78d7fed1143afd978c14fd02a') in 0.002265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.408172 seconds.
+  path: Assets/Editor/MeasureToolSettings.asset
+  artifactKey: Guid(cde577d699ea4e54b803cd5a36c2737d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Editor/MeasureToolSettings.asset using Guid(cde577d699ea4e54b803cd5a36c2737d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2e1bc5d591d58ba0cf6df974f523c904') in 0.004250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.597 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Failed to load: /home/zsyy/Unity/Hub/Editor/2022.3.62f3c1/Editor/Data/PlaybackEngines/VisionOSPlayer/x64/UnityEditor.VisionOS.Native.so
+Native extension for VisionOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.220 seconds
+Domain Reload Profiling: 1815ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (48ms)
+				TypeCache.ScanAssembly (29ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1220ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (936ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (766ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 3.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 126 unused Assets / (1.7 MB). Loaded Objects now: 8775.
+Memory consumption went from 252.4 MB to 250.7 MB.
+Total: 4.231182 ms (FindLiveObjects: 0.294905 ms CreateObjectMapping: 0.123077 ms MarkObjects: 3.046096 ms  DeleteObjects: 0.764712 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MockHMD.cs: 0161d63aa70ee05dac8e73580d421489 -> 
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 818894a2d66a1c67db7c4797664322f2 -> 86fa513bfc04d58509db292069910bf2
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 43c3d777d0c8ebd09beeda0c7fff1e95 -> 701988ef3c16e84d3bc781477493ab34
+  custom:scripting/monoscript/fileName/MockHMDBuildSettings.cs: e7ad0de8284b2d8278a1e8675475b1f4 -> 
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: 0efaf30eeb6ecccfafe5b7912a15e1e1 -> d52e14652f14fd6e56a66a859653fea9
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: d08d3d9bd0dc40127f8f3154525c3cb3 -> 01e68fef49e5cbf622bb7b4ffc622d89
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 7d85fed4b8ad462e9dbb09e8d2f0aac4 -> 6847a9ea85cd2d801d895b625e9590ff
+  custom:scripting/monoscript/fileName/ManifestElement.cs: e66d1acaa2995bff2851f10ea3cd7296 -> c30b57498d373b7476c4d7dfdaee189c
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 713f6b36380d0712ad8a9b08f19954ed -> 2cf07b13d54bfee2898ed6dc38612fbb
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 177a81916dab61baa07e1ecf7d381d35 -> 4be5a8f671a1d808dd1496961b79b86b
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AddCameraWindow.cs: 67b7797117d09de95244d8400e27dcc6 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/NativeAPI.cs: 965cee36b44a53eab6b7118c57fc36f7 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: 7d2fa412ede7b0804737b410f6dcc6b5 -> d8dd4961c18e43fcd707eb950405363a
+  custom:scripting/monoscript/fileName/AdditionalMockCameras.cs: eeb5f01ddb675f8e51c4b3b266352014 -> 
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: ff26efb13f2d08f48a2b114836506036 -> 641c0bff5eb90d0569a809ea302132ee
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 4326cc96ab66e5fef3e5446bce878400 -> 42bf6f4b06629c812bd73f8ff461fec4
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 01864f070e14f3584960ef5627cf9e55 -> 219d482e32bf0c01357e773617418955
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 4687a00f1392b5bb00ca59be52d7c900 -> 1f095dd277a284b59543541a608de1da
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1730138bf046fc0a6b2954c86c6d0041 -> 1558884a4b0ea94b4910dd640a0e6741
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 8fd1fa271763012401d1991ada19c70e -> 2f743437d3b09c9a4a5a33e9be971b1a
+  custom:scripting/monoscript/fileName/MockHMDLoader.cs: 4e3e9c6bee37856cef47b98902d33ebd -> 
+  custom:scripting/monoscript/fileName/RenderPassTextureWindow.cs: 5951b1beba33ce27d50f842dd197c15e -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: 13d4ac4e69024be1fd5d9a817e2625f9 -> fe28088511f2b9a408ee32089af33792
+  custom:scripting/monoscript/fileName/XRPluginManagementProjectValidation.cs: 12841b9f0a8da6fb46dd05260375325e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 16ff37e57a568e497be4f0712a9a33c4 -> 6970e5bff368910038049eb1434facbf
+  custom:scripting/monoscript/fileName/MockHMDPackageMetadata.cs: 90ef08a202bd8fceef41a0abf553b04d -> 
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 60a65812967a6a994d323fb4a3bc40d7 -> 4dbca4fbe4a89e2a18943694f414e3a9
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: 3d9383ab701f2e57f1a038529027b2d7 -> ee5d3b5e5d81c98c5d3594e8b9153df0
+  custom:CustomObjectIndexerAttribute: f3847dcb39c2a616e8d79845aaae36f1 -> 
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: b6037a01878f8a392f51d1eb57a74c21 -> fa91ddd62be7b4c45bfd03890af30249
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: dab5497c8483e158d471edc9c890b6df -> 8e928039a032f154dc8a86537aaac69a
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: 55446fc1aea792d5bd58cd53891bbf28 -> d0237042ed94ccc3267a409cde8490a6
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: b122d810307522aba068b1ac06f7cf0f -> e493f521fc1755dec19875ae28a4f621
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: d9d78f910195bd2f088340a24a66c769 -> e06e5e9ffca9529e9db63900dd9caf32
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 372bb785917be4037ad09602c4baf05a -> 28efaa63edac30b89ccc35ca2bf149fa
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 2ba91bbcf8d586faaa2b8e5422b0984f -> 39a1227fa3c478af29a735ec246b6baf
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: 98c0aaec402c0674f97631d2b5f2a00f -> cc8d2e81204b3fd0e662cd38ef4a2d49
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: 68887eacb86f7c8c452f082dde8bf048 -> a1b6225426bb5004db8b9d7388fe5771
+  custom:scripting/precompiled-assembly-types:Unity.XR.MockHMD: f500ed97332b05a1dd7d37813d8de8bd -> 
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: e785a36687843ea6d40b3bb49d46a2ce -> ae85c4c4a11fcc1ed3393963333e400c
+  custom:scripting/monoscript/fileName/XRLoader.cs: 8f1bb337f7721c83af550d3df06246de -> d82cec0b87bab7dffe74fb3651887ce3
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: d075f5cdbd7f3fba5045a0f25f0a7974 -> f87a91ba911f6030453bea8d921b45d2
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 60689066956cb69bbd1112f8f936b371 -> 52ee9552b5cbbfe4eb60d480e36ffff5
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 65b20182e989272b7e0439cd47eae80e -> 7bb0491ac9109774b097f2da80cd0c03
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MockHMDBuildProcessor.cs: fe7ff5c2cd98b25a9824669bfa5d89de -> 
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 2411540a6b80bde165035b9ffbb722ba -> 5131bbb130bb4652742f626552744ac4
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: bf117eef22dee001b4c5f21604af7845 -> 546181baf4c03dbbd57015a6731508f8
+  custom:scripting/monoscript/fileName/XRPackage.cs: a7ee512db104827eeeec71c027c7f720 -> f2edbbf87f9b798abaf2a9f285d155f5
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 2f13ecbd7e29d26d02f780cb4fbd0a55 -> 47b2d5387fe80e2b28f68297243f4883
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 4f8a12748efcdfd2878565fdb174a717 -> 16731333f575d8bc31df496aced36ebf
+  custom:scripting/precompiled-assembly-types:Unity.XR.MockHMD.Editor: c5d97df7920a19ea7642522d511db7bc -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
