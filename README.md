@@ -1,4 +1,4 @@
-[Uploading aruco_fusedpose说明.md…]()
+
 # ArUco 融合位姿识别与渲染项目技术说明
 
 本文档基于 `/home/zsyy/桌面/aruco_fusedpose121.py` 生成，用于说明该脚本项目的功能、运行环境、核心流程、关键参数和调试方法。
